@@ -1,0 +1,69 @@
+/* Resetting margin and padding */
+body, h1, h2, h3, h4, p, input, button, span, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Styling the input field */
+  #movieName {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #6200ea;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  #movieName:focus {
+    border-color: #3700b3;
+    box-shadow: 0 0 5px rgba(98, 0, 234, 0.5);
+  }
+  
+  /* Styling the button */
+  button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Styling the image */
+  #poster {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: block;
+  }
+  
+  /* Styling the span */
+  #plot {
+    font-size: 18px;
+    text-align: center;
+    max-width: 400px;
+    margin-top: 10px;
+  }
